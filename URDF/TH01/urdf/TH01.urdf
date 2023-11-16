@@ -496,7 +496,7 @@
     type="revolute">
     <origin
       xyz="0.141 0 0"
-      rpy="-1.5708 0 1.5708" />
+      rpy="1.5708 0 -1.5708" />
     <parent
       link="HIP_L" />
     <child
@@ -554,7 +554,7 @@
     type="revolute">
     <origin
       xyz="0.029 0 0"
-      rpy="-1.5708 0.7854 1.5708" />
+      rpy="-1.5708 0.7854 -1.5708" />
     <parent
       link="HIP_ABAD_L" />
     <child
