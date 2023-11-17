@@ -9,17 +9,17 @@
     name="BASE_LINK">
     <inertial>
       <origin
-        xyz="-0.08625 0.00002 0.00145"
+        xyz="-0.08661 0 -0.00101"
         rpy="0 0 0" />
       <mass
-        value="13.88794" />
+        value="12.79294" />
       <inertia
-        ixx="0.28717"
+        ixx="0.26746"
         ixy="-0.00007"
-        ixz="-0.01126"
-        iyy="0.40502"
+        ixz="-0.00676"
+        iyy="0.3762"
         iyz="-0.00009"
-        izz="0.26336" />
+        izz="0.24243" />
     </inertial>
     <visual>
       <origin
