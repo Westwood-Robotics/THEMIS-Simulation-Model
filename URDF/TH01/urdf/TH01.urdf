@@ -9,17 +9,17 @@
     name="BASE_LINK">
     <inertial>
       <origin
-        xyz="-0.08606 0 -0.03329"
+        xyz="-0.01331 0 0.14967"
         rpy="0 0 0" />
       <mass
-        value="13.94967" />
+        value="13.27922" />
       <inertia
-        ixx="0.35091"
-        ixy="-0.00008"
-        ixz="0.03207"
-        iyy="0.44681"
-        iyz="-0.0001"
-        izz="0.28805" />
+        ixx="0.60276"
+        ixy="0"
+        ixz="-0.03884"
+        iyy="0.60004"
+        iyz="0.00001"
+        izz="0.18187" />
     </inertial>
     <visual>
       <origin
@@ -89,8 +89,8 @@
     name="HIP_YAW_R"
     type="revolute">
     <origin
-      xyz="-0.18338 -0.0625 -0.25077"
-      rpy="0 0.7854 0" />
+      xyz="-0.114705815 -0.0625004 -0.120801022"
+      rpy="0 0.785398163 0" />
     <parent
       link="BASE_LINK" />
     <child
@@ -437,8 +437,8 @@
     name="HIP_YAW_L"
     type="revolute">
     <origin
-      xyz="-0.18337794 0.0625 -0.25076794"
-      rpy="0 0.7854 0" />
+      xyz="-0.114705815 0.0624996 -0.120801022"
+      rpy="0 0.785398163 0" />
     <parent
       link="BASE_LINK" />
     <child
