@@ -89,8 +89,8 @@
     name="HIP_YAW_R"
     type="revolute">
     <origin
-      xyz="-0.18338 -0.0625 -0.25077"
-      rpy="0 0.7854 0" />
+      xyz="-0.18562794 -0.0625 -0.29399794"
+      rpy="0 0.785398163 0" />
     <parent
       link="BASE_LINK" />
     <child
@@ -437,8 +437,8 @@
     name="HIP_YAW_L"
     type="revolute">
     <origin
-      xyz="-0.18337794 0.0625 -0.25076794"
-      rpy="0 0.7854 0" />
+      xyz="-0.18562794 0.0625 -0.29399794"
+      rpy="0 0.785398163 0" />
     <parent
       link="BASE_LINK" />
     <child
