@@ -9,17 +9,17 @@
     name="BASE_LINK">
     <inertial>
       <origin
-        xyz="-0.08140412 1.61E-06 -0.01618013"
+        xyz="-0.08962 -0.00014 -0.04079"
         rpy="0 0 0" />
       <mass
-        value="17.38212369" />
+        value="11.60239" />
       <inertia
-        ixx="0.210531167"
-        ixy="2.86E-06"
-        ixz="0.015246173"
-        iyy="0.204347813"
-        iyz="-3.79E-06"
-        izz="0.138044203" />
+        ixx="0.216621"
+        ixy="-0.00011"
+        ixz="0.048601"
+        iyy="0.302248"
+        iyz="0.000497"
+        izz="0.176887" />
     </inertial>
     <visual>
       <origin
@@ -32,7 +32,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -49,17 +49,17 @@
     name="HIP_R">
     <inertial>
       <origin
-        xyz="0.00398 -6.00E-05 0.00636"
+        xyz="0.00398 -0.00006 0.00636"
         rpy="0 0 0" />
       <mass
         value="0.83264" />
       <inertia
-        ixx="0.001904"
-        ixy="8.80E-07"
-        ixz="4.54E-06"
-        iyy="0.001239"
-        iyz="5.08E-08"
-        izz="0.000938" />
+        ixx="0.0019"
+        ixy="0"
+        ixz="0"
+        iyy="0.00124"
+        iyz="0"
+        izz="0.00094" />
     </inertial>
     <visual>
       <origin
@@ -72,7 +72,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -89,8 +89,8 @@
     name="HIP_YAW_R"
     type="revolute">
     <origin
-      xyz="-0.18562794 -0.0625 -0.29399794"
-      rpy="0 0.785398163 0" />
+      xyz="-0.18338 -0.0625 -0.25077"
+      rpy="0 0.7854 0" />
     <parent
       link="BASE_LINK" />
     <child
@@ -107,17 +107,17 @@
     name="HIP_ABAD_R">
     <inertial>
       <origin
-        xyz="-0.00015 1.75E-03 0.00403"
+        xyz="-0.002 0.00147 0.00404"
         rpy="0 0 0" />
       <mass
-        value="2.78771" />
+        value="2.78794" />
       <inertia
-        ixx="0.014397"
-        ixy="3.94E-04"
-        ixz="-9.29E-05"
-        iyy="0.007923"
-        iyz="5.80E-06"
-        izz="0.007187" />
+        ixx="0.01442"
+        ixy="0"
+        ixz="-0.00002"
+        iyy="0.00791"
+        iyz="0"
+        izz="0.0072" />
     </inertial>
     <visual>
       <origin
@@ -130,7 +130,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -148,7 +148,7 @@
     type="revolute">
     <origin
       xyz="0.141 0 0"
-      rpy="1.570796327 0 -1.570796327" />
+      rpy="1.5708 0 -1.5708" />
     <parent
       link="HIP_R" />
     <child
@@ -165,17 +165,17 @@
     name="FEMUR_R">
     <inertial>
       <origin
-        xyz="0.06111 0.00073 0.02008"
+        xyz="0.06111 0.00174 0.02002"
         rpy="0 0 0" />
       <mass
-        value="3.75362" />
+        value="3.75384" />
       <inertia
-        ixx="0.011718"
-        ixy="0.00152"
-        ixz="0.001062"
-        iyy="0.070288"
-        iyz="0.000424"
-        izz="0.07591" />
+        ixx="0.01172"
+        ixy="0.00157"
+        ixz="0.00098"
+        iyy="0.07026"
+        iyz="0.00014"
+        izz="0.07594" />
     </inertial>
     <visual>
       <origin
@@ -188,7 +188,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -206,7 +206,7 @@
     type="revolute">
     <origin
       xyz="0.029 0 0"
-      rpy="-1.570796327 0.785398163 -1.570796327" />
+      rpy="-1.5708 0.7854 -1.5708" />
     <parent
       link="HIP_ABAD_R" />
     <child
@@ -223,17 +223,17 @@
     name="TIBIA_R">
     <inertial>
       <origin
-        xyz="0.09679 6.88E-03 -6.00E-05"
+        xyz="0.09678 0.00694 -0.00006"
         rpy="0 0 0" />
       <mass
-        value="1.2755" />
+        value="1.27716" />
       <inertia
-        ixx="0.000903"
-        ixy="6.79E-04"
-        ixz="-5.67E-06"
-        iyy="0.023214"
-        iyz="-5.70E-07"
-        izz="0.023164" />
+        ixx="0.00091"
+        ixy="0.00069"
+        ixz="-0.00001"
+        iyy="0.02323"
+        iyz="0"
+        izz="0.02318" />
     </inertial>
     <visual>
       <origin
@@ -246,7 +246,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -281,17 +281,17 @@
     name="ANKLE_R">
     <inertial>
       <origin
-        xyz="0.00E+00 0.00E+00 0.00E+00"
+        xyz="0 0 0"
         rpy="0 0 0" />
       <mass
-        value="0.00695" />
+        value="0.00694571" />
       <inertia
-        ixx="7.62E-07"
-        ixy="0.00E+00"
-        ixz="0.00E+00"
-        iyy="7.63E-07"
-        iyz="-3.40E-10"
-        izz="3.63E-08" />
+        ixx="0.00000076"
+        ixy="0"
+        ixz="0"
+        iyy="0.00000076"
+        iyz="0"
+        izz="0.00000004" />
     </inertial>
     <visual>
       <origin
@@ -304,7 +304,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -339,17 +339,17 @@
     name="FOOT_R">
     <inertial>
       <origin
-        xyz="0.01948 -3.00E-05 0.03906"
+        xyz="0.0337 5.00E-05 0.04684"
         rpy="0 0 0" />
       <mass
-        value="0.17981" />
+        value="0.41628" />
       <inertia
-        ixx="0.000679"
-        ixy="-1.01E-07"
-        ixz="1.61E-04"
-        iyy="0.000716"
-        iyz="-1.46E-07"
-        izz="1.32E-04" />
+        ixx="0.002594"
+        ixy="9.89E-07"
+        ixz="0.000725"
+        iyy="0.002998"
+        iyz="1.24E-06"
+        izz="0.000722" />
     </inertial>
     <visual>
       <origin
@@ -362,7 +362,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -380,7 +380,7 @@
     type="revolute">
     <origin
       xyz="0 0 0"
-      rpy="-1.570796327 0 0" />
+      rpy="-1.5708 0 0" />
     <parent
       link="ANKLE_R" />
     <child
@@ -397,17 +397,17 @@
     name="HIP_L">
     <inertial>
       <origin
-        xyz="0.00398 -6.00E-05 0.00636"
+        xyz="0.00398 -0.00006 0.00636"
         rpy="0 0 0" />
       <mass
         value="0.83264" />
       <inertia
-        ixx="0.001904"
-        ixy="8.80E-07"
-        ixz="4.54E-06"
-        iyy="0.001239"
-        iyz="5.08E-08"
-        izz="0.000938" />
+        ixx="0.0019"
+        ixy="0"
+        ixz="0"
+        iyy="0.00124"
+        iyz="0"
+        izz="0.00094" />
     </inertial>
     <visual>
       <origin
@@ -420,7 +420,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -437,8 +437,8 @@
     name="HIP_YAW_L"
     type="revolute">
     <origin
-      xyz="-0.18562794 0.0625 -0.29399794"
-      rpy="0 0.785398163 0" />
+      xyz="-0.18337794 0.0625 -0.25076794"
+      rpy="0 0.7854 0" />
     <parent
       link="BASE_LINK" />
     <child
@@ -455,17 +455,17 @@
     name="HIP_ABAD_L">
     <inertial>
       <origin
-        xyz="0.00942 -2.27E-03 0.00428"
+        xyz="0.00198 0.00146 0.00395"
         rpy="0 0 0" />
       <mass
-        value="2.81778" />
+        value="2.818" />
       <inertia
-        ixx="0.014342"
-        ixy="4.70E-04"
-        ixz="-4.85E-04"
-        iyy="0.008202"
-        iyz="3.63E-05"
-        izz="0.007494" />
+        ixx="0.01442"
+        ixy="0"
+        ixz="0.00002"
+        iyy="0.00791"
+        iyz="0"
+        izz="0.0072" />
     </inertial>
     <visual>
       <origin
@@ -478,7 +478,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -496,7 +496,7 @@
     type="revolute">
     <origin
       xyz="0.141 0 0"
-      rpy="1.570796327 0 -1.570796327" />
+      rpy="1.5708 0 -1.5708" />
     <parent
       link="HIP_L" />
     <child
@@ -516,12 +516,12 @@
         xyz="0.06112 0.00177 -0.02002"
         rpy="0 0 0" />
       <mass
-        value="3.7537" />
+        value="3.75393" />
       <inertia
-        ixx="0.011718"
-        ixy="0.001569"
+        ixx="0.01172"
+        ixy="0.00157"
         ixz="-0.00098"
-        iyy="0.070271"
+        iyy="0.07027"
         iyz="-0.00014"
         izz="0.07595" />
     </inertial>
@@ -536,7 +536,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -554,7 +554,7 @@
     type="revolute">
     <origin
       xyz="-0.029 0 0"
-      rpy="-1.570796327 0.785398163 -1.570796327" />
+      rpy="-1.5708 0.7854 -1.5708" />
     <parent
       link="HIP_ABAD_L" />
     <child
@@ -571,17 +571,17 @@
     name="TIBIA_L">
     <inertial>
       <origin
-        xyz="0.09679 6.88E-03 -6.00E-05"
+        xyz="0.09678 0.00694 -0.00006"
         rpy="0 0 0" />
       <mass
-        value="1.2755" />
+        value="1.27716" />
       <inertia
-        ixx="0.000903"
-        ixy="6.79E-04"
-        ixz="-5.67E-06"
-        iyy="0.023214"
-        iyz="-5.70E-07"
-        izz="0.023164" />
+        ixx="0.00091"
+        ixy="0.00069"
+        ixz="-0.00001"
+        iyy="0.02323"
+        iyz="0"
+        izz="0.02318" />
     </inertial>
     <visual>
       <origin
@@ -594,7 +594,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -629,17 +629,17 @@
     name="ANKLE_L">
     <inertial>
       <origin
-        xyz="0.00E+00 0.00E+00 0.00E+00"
+        xyz="0 0 0"
         rpy="0 0 0" />
       <mass
-        value="0.00695" />
+        value="0.00694571" />
       <inertia
-        ixx="7.62E-07"
-        ixy="0.00E+00"
-        ixz="0.00E+00"
-        iyy="7.63E-07"
-        iyz="-3.40E-10"
-        izz="3.63E-08" />
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
     </inertial>
     <visual>
       <origin
@@ -652,7 +652,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -687,17 +687,17 @@
     name="FOOT_L">
     <inertial>
       <origin
-        xyz="0.01948 -3.00E-05 0.03906"
+        xyz="0.0337 5.00E-05 0.04684"
         rpy="0 0 0" />
       <mass
-        value="0.17981" />
+        value="0.41628" />
       <inertia
-        ixx="0.000679"
-        ixy="-1.01E-07"
-        ixz="1.61E-04"
-        iyy="0.000716"
-        iyz="-1.46E-07"
-        izz="1.32E-04" />
+        ixx="0.002594"
+        ixy="9.89E-07"
+        ixz="0.000725"
+        iyy="0.002998"
+        iyz="1.24E-06"
+        izz="0.000722" />
     </inertial>
     <visual>
       <origin
@@ -710,7 +710,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.79216 0.81961 0.93333 1" />
       </material>
     </visual>
     <collision>
@@ -728,7 +728,7 @@
     type="revolute">
     <origin
       xyz="0 0 0"
-      rpy="-1.570796327 0 0" />
+      rpy="-1.5708 0 0" />
     <parent
       link="ANKLE_L" />
     <child
@@ -745,17 +745,17 @@
     name="UPPERSHOULDER_R">
     <inertial>
       <origin
-        xyz="4.62E-05 0.001299401 -0.00452415"
+        xyz="0.00158 0.0012 -0.00673"
         rpy="0 0 0" />
       <mass
-        value="0.192254092" />
+        value="0.43611" />
       <inertia
-        ixx="0.000148418"
-        ixy="3.10E-07"
-        ixz="4.59E-07"
-        iyy="0.000105695"
-        iyz="-4.28E-06"
-        izz="9.90E-05" />
+        ixx="0.000386"
+        ixy="-2.54E-07"
+        ixz="9.70E-07"
+        iyy="0.000304"
+        iyz="5.68E-06"
+        izz="0.000235" />
     </inertial>
     <visual>
       <origin
@@ -768,7 +768,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.792157 0.819608 0.933333 1" />
       </material>
     </visual>
     <collision>
@@ -785,8 +785,8 @@
     name="SHOULDER_PITCH_R"
     type="revolute">
     <origin
-      xyz="-0.101630818 -0.15565 0.106737259"
-      rpy="1.570796327 0 0" />
+      xyz="-0.10163 -0.15565 0.106737"
+      rpy="1.570796 0 0" />
     <parent
       link="BASE_LINK" />
     <child
@@ -803,17 +803,17 @@
     name="LOWERSHOULDER_R">
     <inertial>
       <origin
-        xyz="0.053538032 0.000510359 4.79E-05"
+        xyz="0.0535 -6.00E-05 2.00E-05"
         rpy="0 0 0" />
       <mass
-        value="0.166153725" />
+        value="0.35798" />
       <inertia
-        ixx="8.48E-05"
-        ixy="8.23E-07"
-        ixz="-3.37E-08"
-        iyy="6.77E-05"
-        iyz="1.66E-10"
-        izz="6.93E-05" />
+        ixx="0.000261"
+        ixy="-1.67E-06"
+        ixz="2.50E-07"
+        iyy="0.001315"
+        iyz="-1.55E-08"
+        izz="0.001242" />
     </inertial>
     <visual>
       <origin
@@ -826,7 +826,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.792157 0.819608 0.933333 1" />
       </material>
     </visual>
     <collision>
@@ -844,7 +844,7 @@
     type="revolute">
     <origin
       xyz="0 0 0"
-      rpy="0 -1.570796327 3.141592653" />
+      rpy="0 -1.5708 3.141593" />
     <parent
       link="UPPERSHOULDER_R" />
     <child
@@ -861,17 +861,17 @@
     name="UPPERARM_R">
     <inertial>
       <origin
-        xyz="0.0002806 -0.007932604 0.200214697"
+        xyz="0.00079 -0.00797 0.19481"
         rpy="0 0 0" />
       <mass
-        value="0.227025841" />
+        value="0.47342" />
       <inertia
-        ixx="0.000578755"
-        ixy="-1.23E-06"
-        ixz="-1.53E-06"
-        iyy="0.000534631"
-        iyz="4.11E-05"
-        izz="0.000118021" />
+        ixx="0.019467"
+        ixy="-2.83E-06"
+        ixz="8.48E-05"
+        iyy="0.01935"
+        iyz="-0.00084"
+        izz="0.000271" />
     </inertial>
     <visual>
       <origin
@@ -884,7 +884,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.792157 0.819608 0.933333 1" />
       </material>
     </visual>
     <collision>
@@ -902,7 +902,7 @@
     type="revolute">
     <origin
       xyz="0 0 0"
-      rpy="0 -1.570796327 3.141592653" />
+      rpy="0 -1.5708 3.141593" />
     <parent
       link="LOWERSHOULDER_R" />
     <child
@@ -919,17 +919,17 @@
     name="FOREARM_R">
     <inertial>
       <origin
-        xyz="0.141560794 -0.011470711 4.09E-06"
+        xyz="0.1135 -0.01128 0"
         rpy="0 0 0" />
       <mass
-        value="0.084277249" />
+        value="0.0999" />
       <inertia
-        ixx="2.69E-05"
-        ixy="2.37E-06"
-        ixz="5.47E-09"
-        iyy="7.72E-05"
-        iyz="1.21E-09"
-        izz="6.87E-05" />
+        ixx="4.65E-05"
+        ixy="-0.00014"
+        ixz="-1.32E-08"
+        iyy="0.002056"
+        iyz="5.90E-10"
+        izz="0.002057" />
     </inertial>
     <visual>
       <origin
@@ -942,7 +942,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.792157 0.819608 0.933333 1" />
       </material>
     </visual>
     <collision>
@@ -960,7 +960,7 @@
     type="revolute">
     <origin
       xyz="0 -0.0125 0.22375"
-      rpy="0 -1.570796327 3.141592653" />
+      rpy="0 -1.5708 3.141593" />
     <parent
       link="UPPERARM_R" />
     <child
@@ -977,17 +977,17 @@
     name="UPPERSHOULDER_L">
     <inertial>
       <origin
-        xyz="4.64E-05 0.001308633 0.004353935"
+        xyz="0.00145 0.00121 -0.03934"
         rpy="0 0 0" />
       <mass
-        value="0.191209791" />
+        value="0.44001" />
       <inertia
-        ixx="0.000147355"
-        ixy="3.09E-07"
-        ixz="-4.60E-07"
-        iyy="0.000104635"
-        iyz="4.23E-06"
-        izz="9.89E-05" />
+        ixx="0.001049"
+        ixy="-2.70E-07"
+        ixz="-3.02E-05"
+        iyy="0.000967"
+        iyz="-3.01E-05"
+        izz="0.000236" />
     </inertial>
     <visual>
       <origin
@@ -1000,7 +1000,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.792157 0.819608 0.933333 1" />
       </material>
     </visual>
     <collision>
@@ -1017,8 +1017,8 @@
     name="SHOULDER_PITCH_L"
     type="revolute">
     <origin
-      xyz="-0.101630818 0.15565 0.106737259"
-      rpy="1.570796327 0 0" />
+      xyz="-0.10163 0.15565 0.106737"
+      rpy="1.570796 0 0" />
     <parent
       link="BASE_LINK" />
     <child
@@ -1035,17 +1035,17 @@
     name="LOWERSHOULDER_L">
     <inertial>
       <origin
-        xyz="0.053538032 -0.000510359 -4.79E-05"
+        xyz="0.0535 6.00E-05 -2.00E-05"
         rpy="0 0 0" />
       <mass
-        value="0.166153725" />
+        value="0.35798" />
       <inertia
-        ixx="8.48E-05"
-        ixy="-8.23E-07"
-        ixz="3.37E-08"
-        iyy="6.77E-05"
-        iyz="1.66E-10"
-        izz="6.93E-05" />
+        ixx="0.000261"
+        ixy="1.67E-06"
+        ixz="-2.50E-07"
+        iyy="0.001315"
+        iyz="-1.55E-08"
+        izz="0.001242" />
     </inertial>
     <visual>
       <origin
@@ -1058,7 +1058,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.792157 0.819608 0.933333 1" />
       </material>
     </visual>
     <collision>
@@ -1076,7 +1076,7 @@
     type="revolute">
     <origin
       xyz="0 0 0"
-      rpy="0 1.570796327 0" />
+      rpy="0 1.570796 0" />
     <parent
       link="UPPERSHOULDER_L" />
     <child
@@ -1093,17 +1093,17 @@
     name="UPPERARM_L">
     <inertial>
       <origin
-        xyz="0.000280251 0.007919928 0.200068581"
+        xyz="0.00079 0.00796 0.19513"
         rpy="0 0 0" />
       <mass
-        value="0.227314115" />
+        value="0.47342" />
       <inertia
-        ixx="0.00058274"
-        ixy="1.23E-06"
-        ixz="-1.54E-06"
-        iyy="0.000538602"
-        iyz="-4.13E-05"
-        izz="0.000118056" />
+        ixx="0.019526"
+        ixy="2.92E-06"
+        ixz="8.48E-05"
+        iyy="0.019409"
+        iyz="0.000841"
+        izz="0.00027" />
     </inertial>
     <visual>
       <origin
@@ -1116,7 +1116,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.792157 0.819608 0.933333 1" />
       </material>
     </visual>
     <collision>
@@ -1134,7 +1134,7 @@
     type="revolute">
     <origin
       xyz="0 0 0"
-      rpy="0 -1.570796327 3.141592653" />
+      rpy="0 -1.5708 3.141593" />
     <parent
       link="LOWERSHOULDER_L" />
     <child
@@ -1151,17 +1151,17 @@
     name="FOREARM_L">
     <inertial>
       <origin
-        xyz="0.141560794 0.011470711 -4.09E-06"
+        xyz="0.1135 0.01128 0"
         rpy="0 0 0" />
       <mass
-        value="0.084277249" />
+        value="0.0999" />
       <inertia
-        ixx="2.69E-05"
-        ixy="-2.37E-06"
-        ixz="-5.47E-09"
-        iyy="7.72E-05"
-        iyz="1.21E-09"
-        izz="6.87E-05" />
+        ixx="4.65E-05"
+        ixy="0.00014"
+        ixz="1.32E-08"
+        iyy="0.002056"
+        iyz="5.90E-10"
+        izz="0.002057" />
     </inertial>
     <visual>
       <origin
@@ -1174,7 +1174,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.792157 0.819608 0.933333 1" />
       </material>
     </visual>
     <collision>
@@ -1192,7 +1192,7 @@
     type="revolute">
     <origin
       xyz="0 0.0125 0.22375"
-      rpy="0 -1.570796327 3.141592653" />
+      rpy="0 -1.5708 3.141593" />
     <parent
       link="UPPERARM_L" />
     <child
@@ -1209,17 +1209,17 @@
     name="NECK">
     <inertial>
       <origin
-        xyz="3.79E-05 0.000372159 -0.00293837"
+        xyz="0 0.00017 -0.00489"
         rpy="0 0 0" />
       <mass
-        value="0.166812238" />
+        value="0.34044" />
       <inertia
-        ixx="8.12E-05"
-        ixy="-2.99E-09"
-        ixz="3.96E-08"
-        iyy="0.000110492"
-        iyz="2.49E-07"
-        izz="7.82E-05" />
+        ixx="0.000199"
+        ixy="1.56E-05"
+        ixz="-2.91E-05"
+        iyy="0.000274"
+        iyz="-2.51E-06"
+        izz="0.000167" />
     </inertial>
     <visual>
       <origin
@@ -1232,7 +1232,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.792157 0.819608 0.933333 1" />
       </material>
     </visual>
     <collision>
@@ -1249,7 +1249,7 @@
     name="HEAD_YAW"
     type="revolute">
     <origin
-      xyz="-0.063573305 0 0.192967296"
+      xyz="-0.06357 0 0.192967"
       rpy="0 0 0" />
     <parent
       link="BASE_LINK" />
@@ -1267,17 +1267,17 @@
     name="HEAD">
     <inertial>
       <origin
-        xyz="-0.007032524 0.06345234 -5.32E-07"
+        xyz="0.00094 0.0631 -1.00E-05"
         rpy="0 0 0" />
       <mass
-        value="0.342268448" />
+        value="0.67367" />
       <inertia
-        ixx="0.001264472"
-        ixy="6.83E-05"
-        ixz="6.69E-09"
-        iyy="0.001811136"
-        iyz="1.01E-09"
-        izz="0.000986358" />
+        ixx="0.004633"
+        ixy="9.34E-05"
+        ixz="0.000261"
+        iyy="0.003171"
+        iyz="1.21E-06"
+        izz="0.004426" />
     </inertial>
     <visual>
       <origin
@@ -1290,7 +1290,7 @@
       <material
         name="">
         <color
-          rgba="0.792156863 0.819607843 0.933333333 1" />
+          rgba="0.792157 0.819608 0.933333 1" />
       </material>
     </visual>
     <collision>
@@ -1308,7 +1308,7 @@
     type="revolute">
     <origin
       xyz="0 0 0"
-      rpy="1.570796327 0 0" />
+      rpy="1.570796 0 0" />
     <parent
       link="NECK" />
     <child
