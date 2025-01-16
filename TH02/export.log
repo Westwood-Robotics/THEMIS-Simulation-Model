@@ -1,0 +1,226 @@
+2025-01-15 17:42:52,542 INFO  AssemblyExportForm.cs: 309 - Saving URDF package to C:\Users\hawkr\Desktop\temp\TH02
+2025-01-15 17:42:52,549 INFO  ExportHelper.cs: 147 - Beginning the export process
+2025-01-15 17:42:52,551 INFO  ExportHelper.cs: 153 - Creating package directories with name TH02 and save path C:\Users\hawkr\Desktop\temp
+2025-01-15 17:42:53,719 INFO  ExportHelper.cs: 162 - Creating CMakeLists.txt at C:\Users\hawkr\Desktop\temp\TH02\CMakeLists.txt
+2025-01-15 17:42:53,720 INFO  ExportHelper.cs: 166 - Creating joint names config at C:\Users\hawkr\Desktop\temp\TH02\config\joint_names_TH02.yaml
+2025-01-15 17:42:53,722 INFO  ExportHelper.cs: 170 - Creating package.xml at C:\Users\hawkr\Desktop\temp\TH02\package.xml
+2025-01-15 17:42:53,722 INFO  PackageXMLWriter.cs: 21 - Creating package.xml at C:\Users\hawkr\Desktop\temp\TH02\package.xml
+2025-01-15 17:42:53,723 INFO  ExportHelper.cs: 177 - Creating RVIZ launch file in C:\Users\hawkr\Desktop\temp\TH02\launch\
+2025-01-15 17:42:53,724 INFO  ExportHelper.cs: 182 - Creating Gazebo launch file in C:\Users\hawkr\Desktop\temp\TH02\launch\
+2025-01-15 17:42:53,725 INFO  ExportHelper.cs: 187 - Saving existing STL preferences
+2025-01-15 17:42:53,725 INFO  ExportHelper.cs: 450 - Saving users preferences
+2025-01-15 17:42:53,726 INFO  ExportHelper.cs: 190 - Modifying STL preferences
+2025-01-15 17:42:53,727 INFO  ExportHelper.cs: 464 - Setting STL preferences
+2025-01-15 17:42:53,728 INFO  ExportHelper.cs: 196 - Found 0 hidden components 
+2025-01-15 17:42:53,729 INFO  ExportHelper.cs: 197 - Hiding all components
+2025-01-15 17:42:54,949 INFO  ExportHelper.cs: 204 - Beginning individual files export
+2025-01-15 17:42:54,955 INFO  ExportHelper.cs: 270 - Exporting link: BASE_LINK
+2025-01-15 17:42:54,956 INFO  ExportHelper.cs: 272 - Link BASE_LINK has 5 children
+2025-01-15 17:42:54,958 INFO  ExportHelper.cs: 270 - Exporting link: HIP_R
+2025-01-15 17:42:54,958 INFO  ExportHelper.cs: 272 - Link HIP_R has 1 children
+2025-01-15 17:42:54,960 INFO  ExportHelper.cs: 270 - Exporting link: HIP_ABAD_R
+2025-01-15 17:42:54,961 INFO  ExportHelper.cs: 272 - Link HIP_ABAD_R has 1 children
+2025-01-15 17:42:54,962 INFO  ExportHelper.cs: 270 - Exporting link: FEMUR_R
+2025-01-15 17:42:54,963 INFO  ExportHelper.cs: 272 - Link FEMUR_R has 1 children
+2025-01-15 17:42:54,964 INFO  ExportHelper.cs: 270 - Exporting link: TIBIA_R
+2025-01-15 17:42:54,965 INFO  ExportHelper.cs: 272 - Link TIBIA_R has 1 children
+2025-01-15 17:42:54,966 INFO  ExportHelper.cs: 270 - Exporting link: ANKLE_R
+2025-01-15 17:42:54,966 INFO  ExportHelper.cs: 272 - Link ANKLE_R has 1 children
+2025-01-15 17:42:54,967 INFO  ExportHelper.cs: 270 - Exporting link: FOOT_R
+2025-01-15 17:42:54,968 INFO  ExportHelper.cs: 272 - Link FOOT_R has 0 children
+2025-01-15 17:42:54,968 INFO  ExportHelper.cs: 317 - FOOT_R: Exporting STL with coordinate frame ANKLE_ROLL_R
+2025-01-15 17:42:54,969 INFO  ExportHelper.cs: 322 - FOOT_R: Reference geometry name 
+2025-01-15 17:42:55,715 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\FOOT_R.STL
+2025-01-15 17:42:56,475 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:56,476 INFO  ExportHelper.cs: 317 - ANKLE_R: Exporting STL with coordinate frame ANKLE_PITCH_R
+2025-01-15 17:42:56,476 INFO  ExportHelper.cs: 322 - ANKLE_R: Reference geometry name 
+2025-01-15 17:42:56,506 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\ANKLE_R.STL
+2025-01-15 17:42:56,565 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:56,566 INFO  ExportHelper.cs: 317 - TIBIA_R: Exporting STL with coordinate frame KNEE_PITCH_R
+2025-01-15 17:42:56,566 INFO  ExportHelper.cs: 322 - TIBIA_R: Reference geometry name 
+2025-01-15 17:42:56,588 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\TIBIA_R.STL
+2025-01-15 17:42:56,640 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:56,641 INFO  ExportHelper.cs: 317 - FEMUR_R: Exporting STL with coordinate frame HIP_PITCH_R
+2025-01-15 17:42:56,642 INFO  ExportHelper.cs: 322 - FEMUR_R: Reference geometry name 
+2025-01-15 17:42:56,663 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\FEMUR_R.STL
+2025-01-15 17:42:56,716 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:56,717 INFO  ExportHelper.cs: 317 - HIP_ABAD_R: Exporting STL with coordinate frame HIP_ROLL_R
+2025-01-15 17:42:56,717 INFO  ExportHelper.cs: 322 - HIP_ABAD_R: Reference geometry name 
+2025-01-15 17:42:56,741 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\HIP_ABAD_R.STL
+2025-01-15 17:42:56,796 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:56,797 INFO  ExportHelper.cs: 317 - HIP_R: Exporting STL with coordinate frame HIP_YAW_R
+2025-01-15 17:42:56,797 INFO  ExportHelper.cs: 322 - HIP_R: Reference geometry name 
+2025-01-15 17:42:56,819 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\HIP_R.STL
+2025-01-15 17:42:56,880 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:56,882 INFO  ExportHelper.cs: 270 - Exporting link: HIP_L
+2025-01-15 17:42:56,883 INFO  ExportHelper.cs: 272 - Link HIP_L has 1 children
+2025-01-15 17:42:56,884 INFO  ExportHelper.cs: 270 - Exporting link: HIP_ABAD_L
+2025-01-15 17:42:56,885 INFO  ExportHelper.cs: 272 - Link HIP_ABAD_L has 1 children
+2025-01-15 17:42:56,886 INFO  ExportHelper.cs: 270 - Exporting link: FEMUR_L
+2025-01-15 17:42:56,887 INFO  ExportHelper.cs: 272 - Link FEMUR_L has 1 children
+2025-01-15 17:42:56,888 INFO  ExportHelper.cs: 270 - Exporting link: TIBIA_L
+2025-01-15 17:42:56,889 INFO  ExportHelper.cs: 272 - Link TIBIA_L has 1 children
+2025-01-15 17:42:56,891 INFO  ExportHelper.cs: 270 - Exporting link: ANKLE_L
+2025-01-15 17:42:56,891 INFO  ExportHelper.cs: 272 - Link ANKLE_L has 1 children
+2025-01-15 17:42:56,892 INFO  ExportHelper.cs: 270 - Exporting link: FOOT_L
+2025-01-15 17:42:56,893 INFO  ExportHelper.cs: 272 - Link FOOT_L has 0 children
+2025-01-15 17:42:56,893 INFO  ExportHelper.cs: 317 - FOOT_L: Exporting STL with coordinate frame ANKLE_ROLL_L
+2025-01-15 17:42:56,893 INFO  ExportHelper.cs: 322 - FOOT_L: Reference geometry name 
+2025-01-15 17:42:56,917 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\FOOT_L.STL
+2025-01-15 17:42:57,468 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:57,469 INFO  ExportHelper.cs: 317 - ANKLE_L: Exporting STL with coordinate frame ANKLE_PITH_L
+2025-01-15 17:42:57,470 INFO  ExportHelper.cs: 322 - ANKLE_L: Reference geometry name 
+2025-01-15 17:42:57,493 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\ANKLE_L.STL
+2025-01-15 17:42:57,548 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:57,550 INFO  ExportHelper.cs: 317 - TIBIA_L: Exporting STL with coordinate frame KNEE_PITCH_L
+2025-01-15 17:42:57,551 INFO  ExportHelper.cs: 322 - TIBIA_L: Reference geometry name 
+2025-01-15 17:42:57,575 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\TIBIA_L.STL
+2025-01-15 17:42:57,629 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:57,630 INFO  ExportHelper.cs: 317 - FEMUR_L: Exporting STL with coordinate frame HIP_PITCH_L
+2025-01-15 17:42:57,631 INFO  ExportHelper.cs: 322 - FEMUR_L: Reference geometry name 
+2025-01-15 17:42:57,652 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\FEMUR_L.STL
+2025-01-15 17:42:57,705 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:57,706 INFO  ExportHelper.cs: 317 - HIP_ABAD_L: Exporting STL with coordinate frame HIP_ROLL_L
+2025-01-15 17:42:57,707 INFO  ExportHelper.cs: 322 - HIP_ABAD_L: Reference geometry name 
+2025-01-15 17:42:57,729 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\HIP_ABAD_L.STL
+2025-01-15 17:42:57,794 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:57,795 INFO  ExportHelper.cs: 317 - HIP_L: Exporting STL with coordinate frame HIP_YAW_L
+2025-01-15 17:42:57,795 INFO  ExportHelper.cs: 322 - HIP_L: Reference geometry name 
+2025-01-15 17:42:57,823 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\HIP_L.STL
+2025-01-15 17:42:57,900 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:57,904 INFO  ExportHelper.cs: 270 - Exporting link: UPPERSHOULDER_R
+2025-01-15 17:42:57,905 INFO  ExportHelper.cs: 272 - Link UPPERSHOULDER_R has 1 children
+2025-01-15 17:42:57,906 INFO  ExportHelper.cs: 270 - Exporting link: LOWERSHOULDER_R
+2025-01-15 17:42:57,907 INFO  ExportHelper.cs: 272 - Link LOWERSHOULDER_R has 1 children
+2025-01-15 17:42:57,908 INFO  ExportHelper.cs: 270 - Exporting link: UPPERARM_R
+2025-01-15 17:42:57,909 INFO  ExportHelper.cs: 272 - Link UPPERARM_R has 1 children
+2025-01-15 17:42:57,910 INFO  ExportHelper.cs: 270 - Exporting link: FOREARM_R
+2025-01-15 17:42:57,911 INFO  ExportHelper.cs: 272 - Link FOREARM_R has 1 children
+2025-01-15 17:42:57,912 INFO  ExportHelper.cs: 270 - Exporting link: WRIST_SHAFT_R
+2025-01-15 17:42:57,913 INFO  ExportHelper.cs: 272 - Link WRIST_SHAFT_R has 1 children
+2025-01-15 17:42:57,914 INFO  ExportHelper.cs: 270 - Exporting link: WRIST_R
+2025-01-15 17:42:57,915 INFO  ExportHelper.cs: 272 - Link WRIST_R has 1 children
+2025-01-15 17:42:57,917 INFO  ExportHelper.cs: 270 - Exporting link: HAND_R
+2025-01-15 17:42:57,917 INFO  ExportHelper.cs: 272 - Link HAND_R has 0 children
+2025-01-15 17:42:57,918 INFO  ExportHelper.cs: 317 - HAND_R: Exporting STL with coordinate frame HAND_R
+2025-01-15 17:42:57,918 INFO  ExportHelper.cs: 322 - HAND_R: Reference geometry name 
+2025-01-15 17:42:57,944 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\HAND_R.STL
+2025-01-15 17:42:58,006 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:58,007 INFO  ExportHelper.cs: 317 - WRIST_R: Exporting STL with coordinate frame WRIST_YAW_R
+2025-01-15 17:42:58,007 INFO  ExportHelper.cs: 322 - WRIST_R: Reference geometry name 
+2025-01-15 17:42:58,031 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\WRIST_R.STL
+2025-01-15 17:42:58,102 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:58,103 INFO  ExportHelper.cs: 317 - WRIST_SHAFT_R: Exporting STL with coordinate frame WRIST_PITCH_R
+2025-01-15 17:42:58,103 INFO  ExportHelper.cs: 322 - WRIST_SHAFT_R: Reference geometry name 
+2025-01-15 17:42:58,135 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\WRIST_SHAFT_R.STL
+2025-01-15 17:42:58,328 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:58,330 INFO  ExportHelper.cs: 317 - FOREARM_R: Exporting STL with coordinate frame ELBOW_PITCH_R
+2025-01-15 17:42:58,331 INFO  ExportHelper.cs: 322 - FOREARM_R: Reference geometry name 
+2025-01-15 17:42:58,355 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\FOREARM_R.STL
+2025-01-15 17:42:58,775 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:58,776 INFO  ExportHelper.cs: 317 - UPPERARM_R: Exporting STL with coordinate frame SHOULDER_YAW_R
+2025-01-15 17:42:58,777 INFO  ExportHelper.cs: 322 - UPPERARM_R: Reference geometry name 
+2025-01-15 17:42:58,817 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\UPPERARM_R.STL
+2025-01-15 17:42:59,156 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:59,157 INFO  ExportHelper.cs: 317 - LOWERSHOULDER_R: Exporting STL with coordinate frame SHOULDER_ROLL_R
+2025-01-15 17:42:59,158 INFO  ExportHelper.cs: 322 - LOWERSHOULDER_R: Reference geometry name 
+2025-01-15 17:42:59,183 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\LOWERSHOULDER_R.STL
+2025-01-15 17:42:59,393 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:59,394 INFO  ExportHelper.cs: 317 - UPPERSHOULDER_R: Exporting STL with coordinate frame SHOULDER_PITCH_R
+2025-01-15 17:42:59,394 INFO  ExportHelper.cs: 322 - UPPERSHOULDER_R: Reference geometry name 
+2025-01-15 17:42:59,424 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\UPPERSHOULDER_R.STL
+2025-01-15 17:42:59,713 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:59,716 INFO  ExportHelper.cs: 270 - Exporting link: UPPERSHOULDER_L
+2025-01-15 17:42:59,717 INFO  ExportHelper.cs: 272 - Link UPPERSHOULDER_L has 1 children
+2025-01-15 17:42:59,719 INFO  ExportHelper.cs: 270 - Exporting link: LOWERSHOULDER_L
+2025-01-15 17:42:59,719 INFO  ExportHelper.cs: 272 - Link LOWERSHOULDER_L has 1 children
+2025-01-15 17:42:59,720 INFO  ExportHelper.cs: 270 - Exporting link: UPPERARM_L
+2025-01-15 17:42:59,721 INFO  ExportHelper.cs: 272 - Link UPPERARM_L has 1 children
+2025-01-15 17:42:59,723 INFO  ExportHelper.cs: 270 - Exporting link: FOREARM_L
+2025-01-15 17:42:59,723 INFO  ExportHelper.cs: 272 - Link FOREARM_L has 1 children
+2025-01-15 17:42:59,725 INFO  ExportHelper.cs: 270 - Exporting link: WRIST_SHAFT_L
+2025-01-15 17:42:59,725 INFO  ExportHelper.cs: 272 - Link WRIST_SHAFT_L has 1 children
+2025-01-15 17:42:59,726 INFO  ExportHelper.cs: 270 - Exporting link: WRIST_L
+2025-01-15 17:42:59,727 INFO  ExportHelper.cs: 272 - Link WRIST_L has 1 children
+2025-01-15 17:42:59,728 INFO  ExportHelper.cs: 270 - Exporting link: HAND_L
+2025-01-15 17:42:59,728 INFO  ExportHelper.cs: 272 - Link HAND_L has 0 children
+2025-01-15 17:42:59,729 INFO  ExportHelper.cs: 317 - HAND_L: Exporting STL with coordinate frame HAND_L
+2025-01-15 17:42:59,729 INFO  ExportHelper.cs: 322 - HAND_L: Reference geometry name 
+2025-01-15 17:42:59,752 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\HAND_L.STL
+2025-01-15 17:42:59,816 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:59,817 INFO  ExportHelper.cs: 317 - WRIST_L: Exporting STL with coordinate frame WRIST_YAW_L
+2025-01-15 17:42:59,818 INFO  ExportHelper.cs: 322 - WRIST_L: Reference geometry name 
+2025-01-15 17:42:59,842 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\WRIST_L.STL
+2025-01-15 17:42:59,908 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:42:59,909 INFO  ExportHelper.cs: 317 - WRIST_SHAFT_L: Exporting STL with coordinate frame WRIST_PITCH_L
+2025-01-15 17:42:59,909 INFO  ExportHelper.cs: 322 - WRIST_SHAFT_L: Reference geometry name 
+2025-01-15 17:42:59,933 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\WRIST_SHAFT_L.STL
+2025-01-15 17:43:00,000 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:43:00,001 INFO  ExportHelper.cs: 317 - FOREARM_L: Exporting STL with coordinate frame ELBOW_PITCH_L
+2025-01-15 17:43:00,002 INFO  ExportHelper.cs: 322 - FOREARM_L: Reference geometry name 
+2025-01-15 17:43:00,025 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\FOREARM_L.STL
+2025-01-15 17:43:00,437 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:43:00,438 INFO  ExportHelper.cs: 317 - UPPERARM_L: Exporting STL with coordinate frame SHOULDER_YAW_L
+2025-01-15 17:43:00,439 INFO  ExportHelper.cs: 322 - UPPERARM_L: Reference geometry name 
+2025-01-15 17:43:00,487 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\UPPERARM_L.STL
+2025-01-15 17:43:00,860 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:43:00,861 INFO  ExportHelper.cs: 317 - LOWERSHOULDER_L: Exporting STL with coordinate frame SHOULDER_ROLL_L
+2025-01-15 17:43:00,862 INFO  ExportHelper.cs: 322 - LOWERSHOULDER_L: Reference geometry name 
+2025-01-15 17:43:00,911 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\LOWERSHOULDER_L.STL
+2025-01-15 17:43:01,095 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:43:01,097 INFO  ExportHelper.cs: 317 - UPPERSHOULDER_L: Exporting STL with coordinate frame SHOULDER_PITCH_L
+2025-01-15 17:43:01,098 INFO  ExportHelper.cs: 322 - UPPERSHOULDER_L: Reference geometry name 
+2025-01-15 17:43:01,128 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\UPPERSHOULDER_L.STL
+2025-01-15 17:43:01,398 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:43:01,400 INFO  ExportHelper.cs: 270 - Exporting link: NECK
+2025-01-15 17:43:01,401 INFO  ExportHelper.cs: 272 - Link NECK has 1 children
+2025-01-15 17:43:01,402 INFO  ExportHelper.cs: 270 - Exporting link: HEAD
+2025-01-15 17:43:01,403 INFO  ExportHelper.cs: 272 - Link HEAD has 0 children
+2025-01-15 17:43:01,403 INFO  ExportHelper.cs: 317 - HEAD: Exporting STL with coordinate frame HEAD_PITCH
+2025-01-15 17:43:01,404 INFO  ExportHelper.cs: 322 - HEAD: Reference geometry name 
+2025-01-15 17:43:01,956 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\HEAD.STL
+2025-01-15 17:43:02,475 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:43:02,476 INFO  ExportHelper.cs: 317 - NECK: Exporting STL with coordinate frame HEAD_YAW
+2025-01-15 17:43:02,477 INFO  ExportHelper.cs: 322 - NECK: Reference geometry name 
+2025-01-15 17:43:02,647 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\NECK.STL
+2025-01-15 17:43:02,779 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:43:02,780 INFO  ExportHelper.cs: 317 - BASE_LINK: Exporting STL with coordinate frame BODY
+2025-01-15 17:43:02,780 INFO  ExportHelper.cs: 322 - BASE_LINK: Reference geometry name 
+2025-01-15 17:43:06,382 INFO  ExportHelper.cs: 330 - Saving STL to C:\Users\hawkr\Desktop\temp\TH02\meshes\BASE_LINK.STL
+2025-01-15 17:43:18,492 INFO  ExportHelper.cs: 405 - Removing SW header in STL file
+2025-01-15 17:43:18,493 INFO  ExportHelper.cs: 145 - Showing all components except previously hidden components
+2025-01-15 17:43:23,115 INFO  ExportHelper.cs: 145 - Resetting STL preferences
+2025-01-15 17:43:23,116 INFO  ExportHelper.cs: 478 - Returning STL preferences to user preferences
+2025-01-15 17:43:23,117 INFO  ExportHelper.cs: 228 - Writing URDF file to C:\Users\hawkr\Desktop\temp\TH02\urdf\TH02.urdf
+2025-01-15 17:43:23,119 INFO  CSVImportExport.cs: 32 - Writing CSV file C:\Users\hawkr\Desktop\temp\TH02\urdf\TH02.csv
+2025-01-15 17:43:23,120 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,121 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,121 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,121 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,122 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,122 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,123 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,123 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,123 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,124 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,124 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,125 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,125 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,125 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,126 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,126 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,127 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,127 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,128 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,128 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,128 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,129 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,129 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,129 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,130 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,130 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,131 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,131 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,131 ERROR CSVImportExport.cs: 130 - The following columns were not written to the CSV: Link.Joint.ChildLink.link,
+2025-01-15 17:43:23,132 INFO  ExportHelper.cs: 234 - Copying log file
+2025-01-15 17:43:23,132 INFO  ExportHelper.cs: 439 - Copying C:\Users\hawkr\sw2urdf_logs\sw2urdf.log to C:\Users\hawkr\Desktop\temp\TH02\export.log
