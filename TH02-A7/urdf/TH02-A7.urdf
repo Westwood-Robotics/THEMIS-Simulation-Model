@@ -1130,7 +1130,7 @@
     </collision>
   </link>
   <joint
-    name="WRIST_YAW"
+    name="WRIST_YAW_R"
     type="revolute">
     <origin
       xyz="0 0 0"
@@ -1151,17 +1151,17 @@
     name="UPPERSHOULDER_L">
     <inertial>
       <origin
-        xyz="0.0535 6.00E-05 -2.00E-05"
+        xyz="0.00158 0.00123 0.00673"
         rpy="0 0 0" />
       <mass
-        value="0.35798" />
+        value="0.43611" />
       <inertia
-        ixx="0.000261"
-        ixy="1.67E-06"
-        ixz="-2.50E-07"
-        iyy="0.001315"
-        iyz="-1.55E-08"
-        izz="0.001242" />
+        ixx="0.000385927"
+        ixy="-3.28E-07"
+        ixz="-9.42E-07"
+        iyy="0.000304104"
+        iyz="-5.56E-06"
+        izz="0.000234735" />
     </inertial>
     <visual>
       <origin
@@ -1209,17 +1209,17 @@
     name="LOWERSHOULDER_L">
     <inertial>
       <origin
-        xyz="0.056844237 -0.000402529 -0.000109268"
+        xyz="0.0535 6.00E-05 -2.00E-05"
         rpy="0 0 0" />
       <mass
-        value="0.508259807" />
+        value="0.35798" />
       <inertia
-        ixx="0.000376834"
-        ixy="-2.70E-06"
-        ixz="9.89E-07"
-        iyy="0.000415495"
-        iyz="-5.45E-09"
-        izz="0.00033612" />
+        ixx="0.000261"
+        ixy="1.67E-06"
+        ixz="-2.50E-07"
+        iyy="0.001315"
+        iyz="-1.55E-08"
+        izz="0.001242" />
     </inertial>
     <visual>
       <origin
