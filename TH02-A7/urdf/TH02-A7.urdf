@@ -861,17 +861,17 @@
     name="UPPERARM_R">
     <inertial>
       <origin
-        xyz="-0.00141 -0.01065 0.17748"
+        xyz="-0.00152 -0.0104 0.1973"
         rpy="0 0 0" />
       <mass
-        value="0.50401" />
+        value="0.51544" />
       <inertia
-        ixx="0.017059811"
-        ixy="9.22E-06"
-        ixz="-0.000141065"
-        iyy="0.016895628"
-        iyz="-0.001061399"
-        izz="0.000358078" />
+        ixx="0.021671894"
+        ixy="1.03E-05"
+        ixz="-0.0001758"
+        iyy="0.021508856"
+        iyz="-0.001195001"
+        izz="0.000365708" />
     </inertial>
     <visual>
       <origin
@@ -959,7 +959,7 @@
     name="ELBOW_PITCH_R"
     type="revolute">
     <origin
-      xyz="0 -0.015 0.19995"
+      xyz="0 -0.015 0.22495"
       rpy="0 -1.570796327 3.141592653" />
     <parent
       link="UPPERARM_R" />
@@ -1267,17 +1267,17 @@
     name="UPPERARM_L">
     <inertial>
       <origin
-        xyz="-0.00141 0.01066 0.17747"
+        xyz="-0.00152 0.01042 0.1973"
         rpy="0 0 0" />
       <mass
-        value="0.50401" />
+        value="0.51544" />
       <inertia
-        ixx="0.017059169"
-        ixy="-9.15E-06"
-        ixz="-0.000141066"
-        iyy="0.016894753"
-        iyz="0.001063003"
-        izz="0.000358311" />
+        ixx="0.021671007"
+        ixy="-1.03E-05"
+        ixz="-0.000175798"
+        iyy="0.021507692"
+        iyz="0.001197139"
+        izz="0.000365985" />
     </inertial>
     <visual>
       <origin
@@ -1365,7 +1365,7 @@
     name="ELBOW_PITCH_L"
     type="revolute">
     <origin
-      xyz="0 0.015 0.19995"
+      xyz="0 0.015 0.22495"
       rpy="3.141592653 -1.570796327 0" />
     <parent
       link="UPPERARM_L" />
