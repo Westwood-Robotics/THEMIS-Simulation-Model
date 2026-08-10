@@ -5,10 +5,10 @@ TH02-A7 is the newest and only model of THEMIS that is beeing mass produced. TH0
 ## Alternative Meshes
 ### Models
 We have included two versions of model mesh files: detailed and simplified, each with different levels of mesh qualities: FHD, HD and SD:<br />
-| Model | FHD | HD | SD |
-| :--: | --| --| --|
-|detailed<br /><img src="./pic/detailed.png" alt="drawing" width="200"/>| High quality mesh<br />Detailed models <br /><br />Model size: 340 MB | Moderate quality mesh<br />Detailed models <br /><br />Model size: 36.7 MB | Low quality mesh<br />Detailed models <br /><br />Model size: 20.2 MB |
-|simplified<br /><img src="./pic/simplified.png" alt="drawing" width="200"/>| High quality mesh<br />Simplied leg and body models <br /><br />Model size: 18 MB | Moderate quality mesh<br />Simplied leg and body models <br /><br />Model size: 5.57 MB |
+| Model | FHD | HD |
+| :--: | --| --|
+|detailed<br /><img src="./pic/detailed.png" alt="drawing" width="200"/>| High quality mesh<br />Detailed models <br /><br />Model size: 407 MB | Moderate quality mesh<br />Detailed models <br /><br />Model size: 48 MB |
+|simplified<br /><img src="./pic/simplified.png" alt="drawing" width="200"/>| High quality mesh<br />Simplied leg and body models <br /><br />Model size: 85.9 MB | Moderate quality mesh<br />Simplied leg and body models <br /><br />Model size: 16.8 MB |
 
 
 
