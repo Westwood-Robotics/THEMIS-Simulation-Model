@@ -1,14 +1,16 @@
 # THEMIS Models for Simulation.
 
-TH02-A7 is the newest and only model of THEMIS that is beeing mass produced. TH02-A7 is equiped with 7-DoF arms and Westwood Robotics' open source 7-DoF three-finger end-effector [EN02](https://github.com/Westwood-Robotics/EN02-OP). Please note that all other models except for TH02-A7 has been discountinued as of September 25, 2025. 
+TH02 Gen2.9(TH02.9) is an update based on TH02-A7, adding a three DoFs WAIST to the system. 
+
+TH02 Gen2.9 is an internal model, while TH02-A7 is currently the newest and only model of THEMIS that is beeing mass produced. TH02-A7 is equiped with 7-DoF arms and Westwood Robotics' open source 7-DoF three-finger end-effector [EN02](https://github.com/Westwood-Robotics/EN02-OP). Please note that all other models except for TH02-A7 has been discountinued as of September 25, 2025. 
 
 ## Alternative Meshes
 ### Models
 We have included two versions of model mesh files: detailed and simplified, each with different levels of mesh qualities: FHD, HD and SD:<br />
-| Model | FHD | HD | SD |
-| :--: | --| --| --|
-|detailed<br /><img src="./pic/detailed.png" alt="drawing" width="200"/>| High quality mesh<br />Detailed models <br /><br />Model size: 340 MB | Moderate quality mesh<br />Detailed models <br /><br />Model size: 36.7 MB | Low quality mesh<br />Detailed models <br /><br />Model size: 20.2 MB |
-|simplified<br /><img src="./pic/simplified.png" alt="drawing" width="200"/>| High quality mesh<br />Simplied leg and body models <br /><br />Model size: 18 MB | Moderate quality mesh<br />Simplied leg and body models <br /><br />Model size: 5.57 MB |
+| Model | FHD | HD | 
+| :--: | --| --|
+|detailed<br /><img src="./pic/detailed.png" alt="drawing" width="200"/>| High quality mesh<br />Detailed models <br /><br />Model size: 448 MB | Moderate quality mesh<br />Detailed models <br /><br />Model size: 33.9 MB |
+|simplified<br /><img src="./pic/simplified.png" alt="drawing" width="200"/>| High quality mesh<br />Simplied leg and body models <br /><br />Model size: 136 MB | Moderate quality mesh<br />Simplied leg and body models <br /><br />Model size: 23 MB |
 
 
 
